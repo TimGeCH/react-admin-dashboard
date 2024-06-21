@@ -43,6 +43,3 @@ To install Ant Design, run the following command:
 
 ```bash
 npm install antd @ant-design/icons
-
-
-
