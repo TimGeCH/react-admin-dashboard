@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-    MenuFoldOutlined,
-    MenuUnfoldOutlined,
-    UploadOutlined,
-    UserOutlined,
-    VideoCameraOutlined,
-} from '@ant-design/icons';
-import { Button, Layout, Menu, theme } from 'antd';
+import { Layout, theme } from 'antd';
 import CommonAside from '../components/commonAside';
 import CommonHeader from '../components/commonHeader';
 
@@ -22,7 +15,7 @@ const Main = () => {
         <Layout className='main-container' style={{ minHeight: '100vh' }}>
             <CommonAside />
             <Layout>
-                <CommonHeader/>
+                <CommonHeader />
                 <Content
                     style={{
                         margin: '24px 16px',
